@@ -18,9 +18,15 @@ header > p {
     padding-bottom: 0%;
 }
 
+@keyframes test {
+    from {font-size: small;}
+    to {font-size: large;}
+}
+
 #website_title+p {
     rotate: 2deg;
-    animation: ;
+    animation: test;
+    animation-duration: 2s;
 }
 
 article .animal_name {
