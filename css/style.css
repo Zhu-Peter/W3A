@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(255, 224, 166);
+}
+
+header {
+    text-align: center;
+}
+
+header > p {
+    margin-top: 0%;
+    color: purple;
+}
+
+#website_title {
+    font-size: 90px;
+    color: rgb(63, 5, 5);
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+article .animal_name {
+    color: blue;
+    text-decoration: underline;
+}
+
+main+article {
+    color: aqua;
+}
