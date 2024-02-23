@@ -29,17 +29,19 @@ article .animal_name {
 }
 
 article {
-    display: inline;
-    max-width: 500px;
+    display: inline-block;
+    max-width: 400px;
+    padding: 30px;
+    vertical-align: top;
 }
 
 .animal_description {
     color: green;
-    display: block;
     text-align: justify;
-    width: 500px;
+    width: inherit;
 }
 
 .animal_picture {
     filter: saturate(150%);
+    width: 400px;
 }
