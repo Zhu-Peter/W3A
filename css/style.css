@@ -18,11 +18,28 @@ header > p {
     padding-bottom: 0%;
 }
 
+#website_title+p {
+    rotate: 2deg;
+    animation: ;
+}
+
 article .animal_name {
     color: blue;
     text-decoration: underline;
 }
 
-main+article {
-    color: aqua;
+article {
+    display: inline;
+    max-width: 500px;
+}
+
+.animal_description {
+    color: green;
+    display: block;
+    text-align: justify;
+    width: 500px;
+}
+
+.animal_picture {
+    filter: saturate(150%);
 }
